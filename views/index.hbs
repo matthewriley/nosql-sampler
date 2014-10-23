@@ -1,0 +1,22 @@
+<h1>{{title}}</h1>
+
+<table class="table table-striped">
+	<thead>
+        <tr>
+          <th><div class="alert alert-success" style="display: none;" role="alert" id="domMessage"></div></th>
+        </tr>
+      </thead>
+	<tbody>
+		<tr id="newRecordRow">
+			<td>
+				<form action="/" method="post" id="newRecordForm" class="form-inline" role="form">
+					<input type="text" class="form-control" id="firstName" name="firstName" placeholder="First name" required>
+					<input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last name" required>
+					<input type="text" class="form-control" id="userName" name="userName" placeholder="Username" required>
+					<input type="hidden" id="key" name="key" value="{{key}}"><button type="submit" class="btn btn-default">Add via HTTP</button> <button type="button" class="btn btn-default" id="submitXHR">Add via XHR</button>
+				</form>
+			</td>
+		</tr>
+		{{{listUsers users}}}
+	</tbody>
+</table>
