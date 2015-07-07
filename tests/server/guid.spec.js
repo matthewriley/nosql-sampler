@@ -1,7 +1,7 @@
 "use strict";
 
 var expect = require("chai").expect;
-var guid = require("app/guid");
+var guid = require("../../app/guid");
 
 describe("Guid", function(){
 	it("guid returns a string", function(){

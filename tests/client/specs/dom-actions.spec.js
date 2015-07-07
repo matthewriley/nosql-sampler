@@ -1,5 +1,5 @@
-var guid = require("app/guid");
-var domActions = require('app/dom-actions');
+var guid = require("../../../app/guid");
+var domActions = require('../../../app/dom-actions');
 
 describe("dom-actions module", function() {
 

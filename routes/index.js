@@ -1,7 +1,7 @@
 var url = require('url');
-var RedisClient = require("app/redis-client");
+var RedisClient = require("../app/redis-client");
 var redisClient = new RedisClient();
-var guid = require("app/guid");
+var guid = require("../app/guid");
 
 function renderIndex(res, data){
 	res.render('index', {

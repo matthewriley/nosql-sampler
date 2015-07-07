@@ -1,5 +1,5 @@
-var guid = require("app/guid");
-var formActions = require('app/form-actions');
+var guid = require("../../../app/guid");
+var formActions = require('../../../app/form-actions');
 
 describe("form-actions module", function() {
 

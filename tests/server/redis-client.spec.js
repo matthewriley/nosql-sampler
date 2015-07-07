@@ -1,7 +1,7 @@
 var expect = require("chai").expect;
-var RedisClient = require("app/redis-client");
+var RedisClient = require("../../app/redis-client");
 var redisClient = new RedisClient();
-var guid = require("app/guid");
+var guid = require("../../app/guid");
 var key = 'redis-sample:' + guid();
 var values = {
 	firstName: "Sample",

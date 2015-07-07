@@ -1,4 +1,4 @@
-var xhrActions = require('app/xhr-actions');
+var xhrActions = require('../../../app/xhr-actions');
 
 describe("xhr-actions module", function() {
 

@@ -1,9 +1,9 @@
 var $ = require('jquery');
 var Mediator = require("mediator-js").Mediator;
 var mediator = new Mediator();
-var formActions = require('app/form-actions');
-var domActions = require('app/dom-actions');
-var xhrActions = require('app/xhr-actions');
+var formActions = require('../app/form-actions');
+var domActions = require('../app/dom-actions');
+var xhrActions = require('../app/xhr-actions');
 
 mediator.subscribe("addButtonAction", function(event){
 	formActions.addButtonAction(event, mediator);

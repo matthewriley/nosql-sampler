@@ -5,7 +5,7 @@ module.exports = function(grunt){
 		// watcher to build and minify js
 		watch: {
 			js: {
-				files: ['public/js/src/**/*.js', 'node_modules/app/**/*.js'],
+				files: ['public/js/src/**/*.js', 'app/**/*.js'],
 				tasks: ['browserify:build', 'uglify']
 			}
 		},

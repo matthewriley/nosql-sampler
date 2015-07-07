@@ -1,5 +1,4 @@
 node_modules/*
-!node_modules/app
 npm-debug.log
 public/js/app.min.js
 public/js/app.js
